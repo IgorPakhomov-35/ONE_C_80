@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e45634ae-4972-483a-afb4-037e8b52c8f9">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Enum.Пол</content>
+  <content>Constant.ВестиРасчетЗарплаты</content>
+  <content>FunctionalOption.ВестиРасчетЗарплаты</content>
+  <content>CommonCommand.НастройкаПрограммы</content>
+  <content>CommonForm.НастройкаПрограммы</content>
+  <content>Enum.ТипыНоменклатуры</content>
+  <content>Enum.СтавкиНДС</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <content>Catalog.Номенклатура</content>
+  <content>InformationRegister.Цены</content>
+  <content>Document.УстановкаЦен</content>
+  <content>InformationRegister.Скидки</content>
+  <content>Document.УстановкаСкидок</content>
+  <content>DocumentJournal.ЦеныИСкидки</content>
+</mdclass:Subsystem>

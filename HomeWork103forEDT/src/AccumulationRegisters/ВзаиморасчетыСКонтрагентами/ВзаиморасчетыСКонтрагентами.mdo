@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac28452-00b3-4a7f-913f-89cc719b646d">
+  <producedTypes>
+    <selectionType typeId="f72c76ee-129d-4e43-a380-ebe578dc54bf" valueTypeId="8e136f3f-df67-4385-a288-774efca766e8"/>
+    <listType typeId="5f32edb2-3b5c-4c0d-8c9d-05e9c1b8c0d1" valueTypeId="e8b33f14-a4ac-4d0b-87dc-1701be8013b5"/>
+    <managerType typeId="72918c4c-a511-4db7-a29a-e27b14ca1bd8" valueTypeId="4b346cd0-878b-4f81-ab2e-2238e9610bad"/>
+    <recordSetType typeId="66a159c4-aecf-4144-b611-20fdab38702e" valueTypeId="4f4dad26-be00-4257-a41e-12cfd6836acc"/>
+    <recordKeyType typeId="e4e611b1-81dd-404f-924f-e2f8a1a63d95" valueTypeId="3d16cc81-cf58-4e28-b743-2e74307c78f1"/>
+    <recordType typeId="a2bdc0d7-be36-4d7f-9216-47cac3f6e267" valueTypeId="58cc2c32-01ad-4f45-9193-073334e5778a"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="cede1bb4-8ef9-4f92-ab50-86fbbb8c4bba">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="343da7ae-544a-4a27-953b-0b20439054f8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

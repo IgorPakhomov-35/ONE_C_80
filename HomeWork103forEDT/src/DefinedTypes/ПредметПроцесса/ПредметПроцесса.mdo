@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2b0580c-7ab6-4c9a-837a-3f8c97f7fa11">
+  <producedTypes>
+    <containerType typeId="cdeca813-8ea3-41eb-a3c7-622dbf71006a" valueTypeId="dc9fc40a-4bfe-40a6-92f9-5bdb172578ed"/>
+  </producedTypes>
+  <name>ПредметПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет процесса</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.НачислениеПремииПроцентом</types>
+    <types>DocumentRef.РеализацияТоваровИУслуг</types>
+    <types>DocumentRef.НачислениеПоОкладу</types>
+    <types>DocumentRef.ПоступлениеТоваровИУслуг</types>
+    <types>DocumentRef.УстановкаСкидок</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.НачислениеСписком</types>
+    <types>DocumentRef.СписаниеДенежныхСредств</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.ПоступлениеДенежныхСредств</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>DocumentRef.УстановкаЦен</types>
+  </type>
+</mdclass:DefinedType>

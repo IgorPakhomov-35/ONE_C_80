@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcd04bc7-0b1f-494c-a11f-ec22f6c8e483">
+  <producedTypes>
+    <objectType typeId="2df3d82d-8610-487a-ac27-05281f062f66" valueTypeId="cf68b073-e211-4406-a332-65b27d89562d"/>
+    <refType typeId="455a710b-4682-4daa-b599-97bd18aa79d2" valueTypeId="e5cd2e63-7d48-407a-a607-3259e71dd61a"/>
+    <selectionType typeId="287961c5-385b-4245-b0e5-a3a998708ae1" valueTypeId="ec271491-5ae9-427a-8dc7-ca4af0d6c6d8"/>
+    <listType typeId="fda6d32e-2dcf-4e27-946e-7acee6e1a497" valueTypeId="952330c9-85c2-4449-852e-abefa77d94ad"/>
+    <managerType typeId="57383438-4259-4aa9-8097-c3030f4a9288" valueTypeId="f85c828a-a30a-4003-80a9-1d85e75407fc"/>
+  </producedTypes>
+  <name>Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Роли.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="484d9d53-4487-4c31-8eed-bb47650cead1">
+  <producedTypes>
+    <selectionType typeId="4d336334-0007-41fb-a3bb-f46f59a15663" valueTypeId="b03d9d66-42cc-46be-b8f0-ff32ceb437ae"/>
+    <listType typeId="bd75c95d-80d2-4d00-a2f1-f188ba6d0302" valueTypeId="875fb9d8-d9f1-473c-ba78-9275d61657b9"/>
+    <managerType typeId="0e1bc88b-1f2b-4a4b-86e5-faab96d4bc34" valueTypeId="736f35cb-a2e7-4a0b-94f7-8f25f4b135d9"/>
+  </producedTypes>
+  <name>ЦеныИСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены и скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УстановкаЦен</registeredDocuments>
+  <registeredDocuments>Document.УстановкаСкидок</registeredDocuments>
+  <columns uuid="bbb143ef-9858-4cd6-b6ff-0a7035d6bd54">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.УстановкаЦен.Attribute.Ответственный</references>
+    <references>Document.УстановкаСкидок.Attribute.Ответственный</references>
+  </columns>
+</mdclass:DocumentJournal>

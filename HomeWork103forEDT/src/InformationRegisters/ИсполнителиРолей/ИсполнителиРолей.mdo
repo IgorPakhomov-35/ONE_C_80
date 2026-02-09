@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e801af-8693-411f-ba8e-a9cf3e5f2f23">
+  <producedTypes>
+    <selectionType typeId="a8d8484b-c56f-4039-ba9c-5a95699961e4" valueTypeId="ec1e0ec3-60ce-4bf6-a173-35be32446c07"/>
+    <listType typeId="b938db4f-45cd-4d22-bf0f-c0102251553a" valueTypeId="421b6881-df4a-4274-872f-65593981fc91"/>
+    <managerType typeId="0da11a70-67eb-44ab-bdbc-83dc2917c324" valueTypeId="026ef93f-f188-4b44-9932-126c1a645d88"/>
+    <recordSetType typeId="9f6ccf46-5551-4e44-8089-23a9f0a7b4c2" valueTypeId="9b297abf-422c-4c88-873e-8a4ddcc9d12a"/>
+    <recordKeyType typeId="fb407efd-1405-47c8-a11b-d405e413775b" valueTypeId="627da496-d4bd-4a4a-b63e-6db9306457de"/>
+    <recordType typeId="d917d11b-91d0-4d9e-a051-0ee785e7b497" valueTypeId="cf41464d-77ce-43ee-8efc-42e6b4957cd6"/>
+    <recordManagerType typeId="fe8e8012-f574-4b5f-8f0a-d605dfa3f462" valueTypeId="dc0b862d-f935-4854-abae-1a22d519f383"/>
+  </producedTypes>
+  <name>ИсполнителиРолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнители ролей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a6810fbb-09ea-4bee-b674-a8d568f0e0d6">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dcfb62c7-50f9-41ee-a16b-52f17106f58a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

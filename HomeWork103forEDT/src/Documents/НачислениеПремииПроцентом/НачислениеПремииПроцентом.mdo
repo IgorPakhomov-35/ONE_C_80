@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95e113bd-3647-48aa-a5f6-747822ab928d">
+  <producedTypes>
+    <objectType typeId="c23801e9-3480-498d-b67e-6879d0507d4c" valueTypeId="d5639eb7-cfbb-4da7-b329-e910b4246ba3"/>
+    <refType typeId="0d519fcd-06bb-4c03-afdc-1c78802aa494" valueTypeId="a406585c-7bad-4bfe-a890-88e254201b9d"/>
+    <selectionType typeId="76f8e270-a2fc-4984-8827-6814abdcc266" valueTypeId="93f37428-f211-483c-ba0e-76f46c84ec59"/>
+    <listType typeId="1c082e4d-97a6-46a8-91cd-409c5a13711c" valueTypeId="3f1813cc-1ef8-48c8-ab24-21a5d15b812f"/>
+    <managerType typeId="7399c593-f4fa-4029-9fac-ca23f2d60c3d" valueTypeId="4adc00a0-5fa9-43a1-b28a-6e26ae1190ad"/>
+  </producedTypes>
+  <name>НачислениеПремииПроцентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление премии процентом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеПремииПроцентом.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НачислениеПремииПроцентом.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>CalculationRegister.Зарплата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="faabca41-9a72-4203-8401-31cca0f41019">
+    <name>ПроцентПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="54cd7c4e-0e56-4078-9d2c-1cefe3efb5b5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0a9ba7bd-aa34-4c77-a7de-28de25ce3e32">
+    <producedTypes>
+      <objectType typeId="616a17d8-d57c-4fc7-b0e0-b2dc3c58b05f" valueTypeId="6a286a17-568c-4320-8515-fa44a7210d76"/>
+      <rowType typeId="99780ece-4c59-463f-9221-7d7b06a0d214" valueTypeId="ff96df55-8277-411c-b981-99d8295740af"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="aa143e2e-67f8-4df1-b6e6-5d81f83abe56">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

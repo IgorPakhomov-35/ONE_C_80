@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b959e7-ed21-44d8-8927-35947e156c79">
+  <producedTypes>
+    <objectType typeId="728f015a-97b9-4e15-9da5-41cc936334b3" valueTypeId="bbd8c500-6f34-47d2-adc0-d623da239551"/>
+    <refType typeId="129ada94-2e3d-4c65-8bc4-98107068d4ec" valueTypeId="618edf33-de0a-4bcf-b730-f01ea0a9d957"/>
+    <selectionType typeId="b47fe26b-a889-4ebe-913d-3e63c277587e" valueTypeId="404fd6e9-aa3b-47c6-ac58-f9f2ba779889"/>
+    <listType typeId="b5d83082-6d6a-48ff-b56e-1005320e678c" valueTypeId="1a4e59ba-451d-4971-92e1-79c61b584df3"/>
+    <managerType typeId="c1940d31-6de6-44f5-9eda-721f5f96e74b" valueTypeId="127aabed-b6d6-429e-9b4a-2095ee119e16"/>
+  </producedTypes>
+  <name>Задача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.Задача.StandardAttribute.Description</inputByString>
+  <inputByString>Task.Задача.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>150</descriptionLength>
+  <addressing>InformationRegister.ИсполнителиРолей</addressing>
+  <mainAddressingAttribute>Task.Задача.AddressingAttribute.Исполнитель</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийСотрудник</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <attributes uuid="0d76b456-8abb-4cf8-b743-40097c85e3db">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцесса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6b4bcd6-fcd2-42f4-9f19-785fff9daf97">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b5eef54c-4c1a-4874-b414-6bb430ecc472">
+    <name>ЗадачиМне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи мне</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="20510953-2ddc-4cb1-bd00-a320080e1774">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.ИсполнителиРолей.Dimension.Исполнитель</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="7a5aaf39-5cb9-44b1-92f7-2386e488f9d5">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <addressingDimension>InformationRegister.ИсполнителиРолей.Dimension.Роль</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <commands uuid="976ceed6-366a-4038-9cdf-e023e76a6e04">
+    <name>ПринятьКИсполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принять к исполнению</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>TaskRef.Задача</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Task>

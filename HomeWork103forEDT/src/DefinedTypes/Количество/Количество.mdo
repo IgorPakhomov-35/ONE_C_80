@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e1e79cf-8d9d-4b5c-8a88-7593ee888985">
+  <producedTypes>
+    <containerType typeId="8f679209-d0c9-4c54-83cd-eca0d6d3c47e" valueTypeId="e1404bc9-9cde-4d81-a19b-7eb86705a9da"/>
+  </producedTypes>
+  <name>Количество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

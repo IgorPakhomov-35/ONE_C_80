@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e66767c8-1b25-4171-90a5-1f585568b862">
+  <producedTypes>
+    <objectType typeId="67ef90c2-944e-41a0-b94a-d74d5e5bc027" valueTypeId="4711dbee-0465-4ded-863a-b69692bc2b72"/>
+    <refType typeId="6aa0db59-20b8-41e6-bae2-7c4868ad3c4f" valueTypeId="0a91449e-bfe3-46e0-8e11-a5c80f72e3e8"/>
+    <selectionType typeId="a6ff271b-5f56-4893-adde-800a56f5151f" valueTypeId="8aa11888-229a-435d-9e62-931491f7c4c3"/>
+    <listType typeId="adabb5d8-180e-4a29-97e7-0c7f46223dd0" valueTypeId="6f8e8134-9a82-49e4-a27a-5689ce3267bf"/>
+    <managerType typeId="5ea280bc-8380-4c39-aef4-10fedb414b9e" valueTypeId="f12abba8-145a-4c9d-83c3-c3c68b735168"/>
+    <containerType typeId="296f62e7-ecf9-4ba6-881e-bd0e8440c334" valueTypeId="19b8feac-f1eb-4816-94dd-5c5337082bd6"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="94f9a6d8-8d49-4747-afdb-b0836241affd">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.Сотрудники</types>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="4d3a42a2-9286-48cc-910f-edc52d7ff90d">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="a8d8ccd1-77bc-4804-bdf8-31cefdb1ad0d">
+      <name>Сотрудники</name>
+      <description>Сотрудники</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
