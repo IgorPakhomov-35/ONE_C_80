@@ -75,6 +75,7 @@
   <documents>Document.НачислениеПоОкладу</documents>
   <documents>Document.НачислениеПремииПроцентом</documents>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.КадровыйПеревод</documents>
   <documentJournals>DocumentJournal.ЦеныИСкидки</documentJournals>
   <documentJournals>DocumentJournal.Сделки</documentJournals>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
